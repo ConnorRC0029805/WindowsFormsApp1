@@ -29,7 +29,7 @@ namespace WindowsFormsApp1
                 R1 = Convert.ToDouble(textBox1.Text);
                 R2 = Convert.ToDouble(textBox2.Text);
                 resistance = R1 + R2;
-                label7.Text = "resistance = " + resistance; 
+                label7.Text = "resistance = " + resistance;  
             }
             catch
             {
