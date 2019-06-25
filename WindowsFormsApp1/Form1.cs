@@ -24,6 +24,7 @@ namespace WindowsFormsApp1
 
         private void button1_Click(object sender, EventArgs e)
         {
+        // calculates 2 resistors in series
             try
             {
                 double R1, R2, resistance;
@@ -47,6 +48,7 @@ namespace WindowsFormsApp1
 
         private void button3_Click(object sender, EventArgs e)
         {
+        // calculates 3 resistors in series
             try
             {
                 double R1, R2, R3, resistance;
@@ -65,6 +67,7 @@ namespace WindowsFormsApp1
         private void button4_Click(object sender, EventArgs e)
         {
             try
+                    // calculates 4 resistors in series
             {
                 double R1, R2, R3, R4, resistance;
                 R1 = Convert.ToDouble(textBox8.Text);
@@ -83,6 +86,7 @@ namespace WindowsFormsApp1
         private void Calculate_Click(object sender, EventArgs e)
         {
             try
+                    // calculates 5 resistors in series
             {
                 double R1, R2, R3, R4, R5, resistance;
                 R1 = Convert.ToDouble(textBox12.Text);
@@ -102,6 +106,7 @@ namespace WindowsFormsApp1
         private void button2_Click(object sender, EventArgs e)
         {
             try
+            //calculates 2 resistors in parallel
             {
                 double R1, R2, resistance;
                 R1 = Convert.ToDouble(textBox3.Text);
@@ -119,6 +124,7 @@ namespace WindowsFormsApp1
         private void button5_Click(object sender, EventArgs e)
         {
             try
+             //calculates 3 resistors in parallel
             {
                 double R1, R2, R3, resistance;
                 R1 = Convert.ToDouble(textBox17.Text);
@@ -136,6 +142,7 @@ namespace WindowsFormsApp1
         private void button6_Click(object sender, EventArgs e)
         {
             try
+             //calculates 4 resistors in parallel
             {
                 double R1, R2, R3, R4, resistance;
                 R1 = Convert.ToDouble(textBox20.Text);
@@ -154,6 +161,7 @@ namespace WindowsFormsApp1
         private void button7_Click(object sender, EventArgs e)
         {
             try
+             //calculates 5 resistors in parallel
             {
                 double R1, R2, R3, R4, R5, resistance;
                 R1 = Convert.ToDouble(textBox24.Text);
